@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description"
+      content="Experienced professional offering high-quality digital and creative services. Discover my portfolio and work with me to turn your ideas into impactful results.">
+   <meta name="robots" content="index, follow">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS - Insert link for icons ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+
+   <!--=============== SWIPER CSS - Insert link for swiperjs ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Rachit Bhardwaj | RB</title>
+</head>
+
+<body>
+   <!--==================== HEADER & NAV ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="/index.html" class="nav__logo">Rachit</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#work" class="nav__link">Works</a>
+               </li>
+
+               <li>
+                  <a href="#service" class="nav__link">My Services</a>
+               </li>
+
+               <li>
+                  <a href="#skills" class="nav__link">Skills</a>
+               </li>
+
+               <li>
+                  <a href="#education" class="nav__link">Education</a>
+               </li>
+
+               <li>
+                  <a href="#contact" class="nav__contact">Contact me</a>
+               </li>
+            </ul>
+
+            <!-- Close -->
+            <button class="nav__close" id="nav-close" aria-label="Close menu">
+               <i class="ri-close-large-line"></i>
+            </button>
+         </div>
+
+         <div class="nav__buttons">
+
+            <div class="theme-picker">
+               <i class="ri-palette-line change-theme" id="theme-button"></i>
+
+               <div class="theme-popup" id="theme-popup">
+                  <input type="range" id="hue-slider" min="0" max="360" value="110">
+               </div>
+            </div>
+
+            <button class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </button>
+
+         </div>
+
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!-- CUSTOM CURSOR -->
+      <div class="cursor"></div>
+
+
+      <!--==================== HOME SECTION ====================-->
+      <section class="home section" id="home">
+         <div class="blob-small"></div>
+         <div class="blob-small"></div>
+
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h3 class="home__subtitle">Hi! I'm Rachit</h3>
+
+               <h1 class="home__title">
+                  Computer Science Student & <br>
+                  <span id="home-typed"></span> <!-- Insert the professions into the js file (HOME TYPED JS -->
+               </h1>
+
+               <p class="home__description">I build designs and websites that solve problems, inspiring success.</p>
+            </div>
+
+            <div class="home__images">
+               <div class="home__box-1"></div>
+               <div class="home__box-2"></div>
+               <div class="home__box-3"></div>
+
+               <img src="assets/img/home-img.png" alt="Digital professional portrait" class="home__img">
+
+               <div class="home__circle">
+                  <span class="home__text" id="home-text">EXPLORE - MORE - LET'S -</span>
+
+                  <a href="#about" class="home__arrow">
+                     <i class="ri-arrow-down-line"></i>
+                  </a>
+               </div>
+
+               <div class="blob-big"></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT SECTION ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <h2 class="about__title">
+               I build modern, responsive, and user-focused <span>web applications</span>
+               while exploring <span>Artificial Intelligence</span>, and continuously improving my problem-solving
+               skills.
+            </h2>
+
+            <div class="about__info">
+               <p class="about__description">
+                  If you have a project in mind, check out my work and contact me
+                  to work together. Best of luck!
+               </p>
+
+               <a href="#contact" class="about__button button">
+                  <span>Resume</span>
+                  <i class="ri-profile-line"></i>
+               </a>
+
+            </div>
+         </div>
+
+      </section>
+
+      <!--==================== WORK SECTION ====================-->
+      <section class="work section" id="work">
+         <h2 class="section__title">
+            View My <span>Work</span>
+         </h2>
+
+         <div class="work__container container grid">
+            <div class="work__swiper swiper">
+               <div class="swiper-wrapper">
+                  <article class="work__card swiper-slide">
+                     <a href="https://saray-72ph.onrender.com" target="_blank" class="work__link">
+                        <img src="assets/img/saray.png" alt="portfolio Project Preview" class="work__img">
+
+                        <div class="work__arrow">
+                           <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                     </a>
+
+                     <div class="work__data">
+                        <span class="work__number">01</span>
+                        <h2 class="work__name">Saray</h2>
+                        <p class="work__description">
+                           Homestay platform built with the MERN stack, featuring 
+                           authentication, responsive design, Cloudinary, and Maptiler integration.
+                        </p>
+                     </div>
+
+                     <div class="blob-big"></div>
+                  </article>
+
+                  <article class="work__card swiper-slide">
+                     <a href="https://rachit-bhardwaj.github.io/PathGuider/" target="_blank" class="work__link">
+                        <img src="assets/img/pathguider.png" alt="portfolio Project Preview" class="work__img">
+
+                        <div class="work__arrow">
+                           <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                     </a>
+
+                     <div class="work__data">
+                        <span class="work__number">02</span>
+                        <h2 class="work__name">PathGuider</h2>
+                        <p class="work__description">
+                           Career guidance platform helping students explore 
+                           colleges, courses, and careerpaths using HTML, CSS, JavaScript.
+                        </p>
+                     </div>
+
+                     <div class="blob-big"></div>
+                  </article>
+
+                  <article class="work__card swiper-slide">
+                     <a href="https://github.com/rachit-bhardwaj/Restuarent-Billing" target="_blank" class="work__link">
+                        <img src="assets/img/mealmate.png" alt="portfolio Project Preview" class="work__img">
+
+                        <div class="work__arrow">
+                           <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                     </a>
+
+                     <div class="work__data">
+                        <span class="work__number">03</span>
+                        <h2 class="work__name">MealMate</h2>
+                        <p class="work__description">
+                           Restaurant billing system developed with Java Swing and MongoDB, featuring 
+                           order management, bill generation, customer records, and inventory handling.
+                        </p>
+                     </div>
+
+                     <div class="blob-big"></div>
+                  </article>
+
+                  <article class="work__card swiper-slide">
+                     <a href="https://rachit-bhardwaj.github.io/Tic-Tac-Toe/" target="_blank" class="work__link">
+                        <img src="assets/img/tic-tac-toe.png" alt="portfolio Project Preview" class="work__img">
+
+                        <div class="work__arrow">
+                           <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                     </a>
+
+                     <div class="work__data">
+                        <span class="work__number">04</span>
+                        <h2 class="work__name">Tic Tac Toe</h2>
+                        <p class="work__description">
+                            Interactive Tic Tac Toe game built using HTML, CSS, and JavaScript, featuring 
+                            responsive gameplay, winner detection, score tracking, and clean UI..
+                        </p>
+                     </div>
+
+                     <div class="blob-big"></div>
+                  </article>
+
+                  <article class="work__card swiper-slide">
+                     <a href="https://rachit-bhardwaj.github.io/Simon-Says-Game/" target="_blank" class="work__link">
+                        <img src="assets/img/simon-says-game.png" alt="portfolio Project Preview" class="work__img">
+
+                        <div class="work__arrow">
+                           <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                     </a>
+
+                     <div class="work__data">
+                        <span class="work__number">05</span>
+                        <h2 class="work__name">Simon Says Game</h2>
+                        <p class="work__description">
+                           Browser-based memory game created with HTML, CSS, and JavaScript, featuring 
+                           dynamic sequences, increasing difficulty, animations, and score tracking.
+                        </p>
+                     </div>
+
+                     <div class="blob-big"></div>
+                  </article>
+
+               </div>
+
+               <!-- Pagination -->
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICES SECTION ====================-->
+      <section class="service section" id="service">
+         <h2 class="section__title">
+            <span>My</span> Services
+         </h2>
+
+         <div class="services__container container grid">
+            <article class="services__card services-open">
+               <button class="services__button">
+                  <i class="ri-code-box-line services__icon"></i>
+                  <h3 class="services__name">Frontend Development</h3>
+
+                  <div class="services__arrow">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+               </button>
+
+               <div class="services__data">
+                  <p class="services__description">
+                     Build responsive, modern, and interactive user interfaces with clean
+                     design and excellent user experience.
+                  </p>
+
+                  <ul class="services__list">
+                     <li class="services__item">Designer</li>
+                     <li class="services__item">Responsive design</li>
+                     <li class="services__item">Cross-Browser Compatibility</li>
+                     <li class="services__item">Basic SEO</li>
+                     <li class="services__item">Performance Optimization</li>
+                  </ul>
+
+               </div>
+            </article>
+
+            <article class="services__card services-close">
+               <button class="services__button">
+                  <i class="ri-server-line services__icon"></i>
+                  <h3 class="services__name">Backend Development</h3>
+
+                  <div class="services__arrow">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+               </button>
+
+               <div class="services__data">
+                  <p class="services__description">
+                     Develop secure and scalable backend systems
+                     with efficient APIs, authentication, and server-side functionality..
+                  </p>
+
+                  <ul class="services__list">
+                     <li class="services__item">REST API Development</li>
+                     <li class="services__item">Node.js & Express.js</li>
+                     <li class="services__item">Server-Side Logic</li>
+                     <li class="services__item">API Integration</li>
+                     <li class="services__item">Error Handling</li>
+                  </ul>
+
+               </div>
+            </article>
+
+            <article class="services__card services-close">
+               <button class="services__button">
+                  <i class="ri-database-2-line services__icon"></i>
+                  <h3 class="services__name">Database Development</h3>
+
+                  <div class="services__arrow">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+               </button>
+
+               <div class="services__data">
+                  <p class="services__description">
+                     Design and manage efficient databases for
+                     reliable data storage, retrieval, and application performance..
+                  </p>
+
+                  <ul class="services__list">
+                     <li class="services__item">MongoDB Database Design</li>
+                     <li class="services__item">CRUD Operations</li>
+                     <li class="services__item">Data Modeling</li>
+                     <li class="services__item">Database Optimization</li>
+                     <li class="services__item">Data Validation</li>
+                  </ul>
+
+               </div>
+            </article>
+
+            <article class="services__card services-close">
+               <button class="services__button">
+                  <i class="ri-code-ai-line services__icon"></i>
+                  <h3 class="services__name">AI & Machine Learning</h3>
+
+                  <div class="services__arrow">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+               </button>
+
+               <div class="services__data">
+                  <p class="services__description">
+                     Build intelligent applications by integrating machine learning
+                     models and AI-powered features into modern solutions..
+                  </p>
+
+                  <ul class="services__list">
+                     <li class="services__item">Machine Learning Models</li>
+                     <li class="services__item">Data Analysis</li>
+                     <li class="services__item">Python Development</li>
+                     <li class="services__item">AI Integration</li>
+                     <li class="services__item">Model Deployment</li>
+                     <li class="services__item">Intelligent Applications</li>
+                  </ul>
+
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== SKILLS SECTION ====================-->
+      <section class="skills section" id="skills">
+         <h2 class="section__title">
+            My <span>Skills</span>
+         </h2>
+
+         <p class="skills__description">
+            My skills are those I've learned and developed over the years. By studying,
+            focusing, and being consistent in what I love most.
+         </p>
+
+         <div class="skills__container container grid">
+            <article class="skills__card">
+               <div class="skills__profession">
+                  <i class="ri-layout-3-line skills__icon"></i>
+                  <h2 class="skills__title">Frontend</h2>
+               </div>
+
+               <!-- More icon at https://svgl.app/ - https://svglogos.dev/ -->
+               <ul class="skills__list">
+                  <li class="skills__item">
+                     <img src="assets/img/html.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">HTML</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/css.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">CSS</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/javascript.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">JavaScript</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/react.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">React</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/sass.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Sass</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/bootstrap.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Bootstrap</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/tailwand.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Tailwand CSS</span>
+                  </li>
+               </ul>
+
+               <div class="blob-small"></div>
+            </article>
+
+            <article class="skills__card">
+               <div class="skills__profession">
+                  <i class="ri-database-line skills__icon"></i>
+                  <h2 class="skills__title">Backend</h2>
+               </div>
+
+               <ul class="skills__list">
+                  <li class="skills__item">
+                     <img src="assets/img/nodejs-icon.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">NodeJS</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/expressjs.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">ExpressJS</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/ejs.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">EJS</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/mongodb-icon.svg" alt="Technical skills" class="skills__img"
+                        style="height: 19px;">
+                     <span class="skills__name">MongoDB</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/azure-sql-database.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">SQL</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/jwt-icon.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">JWT</span>
+                  </li>
+               </ul>
+
+               <div class="blob-small"></div>
+            </article>
+
+            <article class="skills__card">
+               <div class="skills__profession">
+                  <i class="ri-layout-3-line skills__icon"></i>
+                  <h2 class="skills__title">AI/ML</h2>
+               </div>
+
+               <ul class="skills__list">
+
+                  <li class="skills__item">
+                     <img src="assets/img/python.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Python</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/numpy.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Numpy</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/pandas-icon.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Pandas</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/matplotlib-icon.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Matplotlib</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/flask.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Flask</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/pytorch-icon.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Pytorch</span>
+                  </li>
+               </ul>
+
+               <div class="blob-small"></div>
+            </article>
+
+            <article class="skills__card">
+               <div class="skills__profession">
+                  <i class="ri-layout-3-line skills__icon"></i>
+                  <h2 class="skills__title">Languages</h2>
+               </div>
+
+               <ul class="skills__list">
+                  <li class="skills__item">
+                     <img src="assets/img/java.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Java</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/python.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Python</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/javascript.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">JavaScript</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/c.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">C</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/azure-sql-database.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">SQL</span>
+                  </li>
+               </ul>
+
+               <div class="blob-small"></div>
+            </article>
+
+            <article class="skills__card">
+               <div class="skills__profession">
+                  <i class="ri-layout-3-line skills__icon"></i>
+                  <h2 class="skills__title">Tools</h2>
+               </div>
+
+               <ul class="skills__list">
+                  <li class="skills__item">
+                     <img src="assets/img/git.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Git</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/github.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Github</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/pycharm.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Pycharm</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/postman-icon.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Postman</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/eclipse-icon.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Eclipse</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/mysql-wordmark-light.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">MySQL Workbench</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/jupyter.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">Jupyter</span>
+                  </li>
+
+                  <li class="skills__item">
+                     <img src="assets/img/visual-studio-code.svg" alt="Technical skills" class="skills__img">
+                     <span class="skills__name">VS Code</span>
+                  </li>
+               </ul>
+
+               <div class="blob-small"></div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== EDUCATION SECTION ====================-->
+      <section class="education section" id="education">
+         <h2 class="section__title">
+            <span>My Education &</span>
+            <br>Achievement
+         </h2>
+
+         <div class="education__container container grid">
+            <div class="education__tabs">
+               <!-- Button Achievement -->
+               <button class="education__button education-active" data-target="#achievement">
+                  Achievement <i class="ri-graduation-cap-line"></i>
+               </button>
+
+               <!-- Button Education -->
+               <button class="education__button" data-target="#education-content">
+                  Education <i class="ri-graduation-cap-line"></i>
+               </button>
+            </div>
+            <div class="education__area">
+               <div class="education__line"></div>
+
+               <!-- Content Achievement -->
+               <div class="education__content education-active" data-content id="achievement">
+                  <div class="education__card">
+                     <div class="education__data">
+                        <div>
+                           <h1 class="education__title">JavaScript<br> Certificates</h1>
+                           <h1 class="education__subtitle">Cisco</h1>
+                        </div>
+
+                        <h2 class="education__year">2024</h2>
+                     </div>
+
+                     <p class="education__description">
+                        Earned Cisco JavaScript Essentials 1 & 2 certifications, covering core
+                        JavaScript, modern syntax, functions, objects, events, and web programming.
+                     </p>
+                  </div>
+
+                  <div class="education__card">
+                     <div class="education__data">
+                        <div>
+                           <h1 class="education__title">MIT Tech <br> Member</h1>
+                           <h1 class="education__subtitle">Moradabad Institute of Technology</h1>
+                        </div>
+
+                        <h2 class="education__year">2024</h2>
+                     </div>
+
+                     <p class="education__description">
+                        Contributed to technical events, coding activities,
+                        and workshops as an active member of the MIT Tech Club.
+                     </p>
+                  </div>
+
+                  <div class="education__card">
+                     <div class="education__data">
+                        <div>
+                           <h1 class="education__title">8+ NPTEL<br> Certificate</h1>
+                           <h1 class="education__subtitle">NPTEL</h1>
+                        </div>
+
+                        <h2 class="education__year">2026</h2>
+                     </div>
+
+                     <p class="education__description">
+                        Successfully completed 8+ NPTEL certification courses in programming,
+                        cybersecurity, data analytics, IoT, and professional development.
+                     </p>
+                  </div>
+               </div>
+
+               <!-- Content Education -->
+               <div class="education__content" data-content id="education-content">
+                  <div class="education__card">
+                     <div class="education__data">
+                        <div>
+                           <h1 class="education__title">High School<br> (10th)</h1>
+                           <h1 class="education__subtitle">Hindu Model Inter College</h1>
+                        </div>
+
+                        <h2 class="education__year">2020</h2>
+                     </div>
+
+                     <p class="education__description">
+                        Completed high school with a strong academic foundation, developing
+                        analytical thinking, discipline, and problem-solving skills.
+                     </p>
+                  </div>
+
+                  <div class="education__card">
+                     <div class="education__data">
+                        <div>
+                           <h1 class="education__title">Intermediate<br> (10+2)</h1>
+                           <h1 class="education__subtitle">Parker Inter College</h1>
+                        </div>
+
+                        <h2 class="education__year">2022</h2>
+                     </div>
+
+                     <p class="education__description">
+                        Completed higher secondary education with a focus on Science,
+                        strengthening mathematical, logical, and analytical skills.
+                     </p>
+                  </div>
+
+                  <div class="education__card">
+                     <div class="education__data">
+                        <div>
+                           <h1 class="education__title">Bachelor of<br>Technology (CSE) </h1>
+                           <h1 class="education__subtitle">Moradabad Institute of Technology</h1>
+                        </div>
+
+                        <h2 class="education__year_college">2023-<br> 2027</h2>
+                     </div>
+
+                     <p class="education__description">
+                        Pursuing a B.Tech in Computer Science & Engineering, focusing
+                        on full-stack development, Java, AI/ML, and software engineering.
+                     </p>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== CONTACT SECTION ====================-->
+      <section class="contact section" id="contact">
+         <h2 class="section__title">
+            Contact<span>Me</span>
+         </h2>
+
+         <div class="contact__container container grid">
+            <form action="" class="contact__form grid" id="contact-form" novalidate>
+               <div class="contact__group">
+                  <input type="text" id="name" name="user_name" required autocomplete="" class="contact__input">
+                  <label for="name" class="contact__label">Name</label>
+               </div>
+
+               <div class="contact__group">
+                  <input type="email" id="email" name="user_email" required pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+                     autocomplete="" class="contact__input">
+                  <label for="email" class="contact__label">Email</label>
+               </div>
+
+               <div class="contact__group">
+                  <textarea name="user_message" id="message" required class="contact__input contact__area"></textarea>
+                  <label for="message" class="contact__label">Message</label>
+               </div>
+
+               <button type="submit" class="contact__button button">
+                  <span>Send Message</span>
+                  <i class="ri-arrow-right-line"></i>
+               </button>
+
+               <p class="contact__message" id="contact-message"></p>
+            </form>
+
+            <div class="contact__content grid">
+               <a href="mailto:rachit971962@gmail.com" target="_blank" class="contact__link">
+                  <div class="contact__info">
+                     <i class="ri-mail-line contact__icon"></i>
+
+                     <div class="contact__text">
+                        <h3 class="contact__title">Email</h3>
+                        <address class="contact__address">rachit971962@gmail.com</address>
+                     </div>
+                  </div>
+
+                  <div class="contact__arrow">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </div>
+               </a>
+
+               <a href="tel:+919675547651" target="_blank" class="contact__link">
+                  <div class="contact__info">
+                     <i class="ri-phone-line contact__icon"></i>
+
+                     <div class="contact__text">
+                        <h3 class="contact__title">Phone number</h3>
+                        <address class="contact__address">+91 9675547651</address>
+                     </div>
+                  </div>
+
+                  <div class="contact__arrow">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </div>
+               </a>
+
+               <a href="https://www.linkedin.com/in/rachit--bhardwaj" target="_blank" class="contact__link">
+                  <div class="contact__info">
+                     <i class="ri-linkedin-box-fill contact__icon"></i>
+
+                     <div class="contact__text">
+                        <h3 class="contact__title">LinkedIn</h3>
+                        <address class="contact__address">rachit--bhardwaj</address>
+                     </div>
+                  </div>
+
+                  <div class="contact__arrow">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </div>
+               </a>
+
+
+               <a href="https://github.com/rachit-bhardwaj" target="_blank" class="contact__link">
+                  <div class="contact__info">
+                     <i class="ri-github-fill contact__icon"></i>
+
+                     <div class="contact__text">
+                        <h3 class="contact__title">Github</h3>
+                        <address class="contact__address">rachit-bhardwaj</address>
+                     </div>
+                  </div>
+
+                  <div class="contact__arrow">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </div>
+               </a>
+
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <h2 class="footer__title">
+            COLLABORATE WITH BIANCA AND START YOUR
+            JOURNEY IN CREATIVE DESIGN TODAY.
+         </h2>
+
+         <div class="footer__content">
+            <ul class="footer__links">
+               <li>
+                  <a href="#work" class="footer__links">Work</a>
+               </li>
+
+               <li>
+                  <a href="#service" class="footer__links">Services</a>
+               </li>
+
+               <li>
+                  <a href="#skills" class="footer__links">Skills</a>
+               </li>
+
+               <li>
+                  <a href="#education" class="footer__links">Education</a>
+               </li>
+            </ul>
+
+            <ul class="footer__social">
+               <li>
+                  <a href="https://www.facebook.com/rachit.bhardwaj.7796" target="_blank" class="footer__social-link">
+                     <i class="ri-facebook-circle-line"></i>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="https://www.instagram.com/rachit__bhardwaj/" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="https://www.linkedin.com/in/rachit--bhardwaj" target="_blank" class="footer__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+               </li>
+
+               <li>
+                  <a href="https://github.com/rachit-bhardwaj" target="_blank" class="footer__social-link">
+                     <i class="ri-github-line"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+      <small class="footer__copy">&#169; All Rights Reserved By Rachit Bhardwaj</small>
+
+      <div class="blob-big"></div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL - Insert link for animations ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+   <!--=============== TYPED JS - Insert link for text animations ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+
+   <!--=============== SWIPER JS - Insert link for swiperjs ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+   <!--=============== EMAIL JS - Insert link to send emails ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
