@@ -616,6 +616,9 @@ img {
 }
 
 .work__img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
   border-radius: 1rem;
   transition: transform 0.4s;
 }
@@ -1321,9 +1324,12 @@ img {
     padding: 1.5rem 1.5rem 4rem;
   }
 
-  .work__img {
-    border-radius: 2rem;
-  }
+    .work__img {
+      width: 30rem;
+      height: 18rem;
+      object-fit: cover;
+      border-radius: 2rem;
+    }
 
   .work__number {
     font-size: var(--bigger-font-size);
