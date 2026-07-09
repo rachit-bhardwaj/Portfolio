@@ -917,6 +917,15 @@ img {
   left: -.25rem;
 }
 
+.education__links {
+  color: var(--first-color);
+  transition: color 0.4s;
+}
+
+.education__links:hover {
+  font-weight: var(--font-semi-bold);
+}
+
 .education__line::after {
   content: '';
   width: 16px;
