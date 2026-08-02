@@ -82,7 +82,7 @@ This is my personal portfolio website showcasing my projects, technical skills, 
 
 # 👨‍💻 Developer
 
-Built with ❤️ by **Rachit Bhardwaj**  
+Built by **Rachit Bhardwaj**  
 **Computer Science Engineering Student | Full-Stack MERN Developer**
 
 ---
